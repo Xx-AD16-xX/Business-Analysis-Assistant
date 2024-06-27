@@ -19,7 +19,7 @@ st.set_page_config(page_title="ASK your EXCEL")
 st.header("Ask your EXCEL", divider='rainbow')
 
 # File uploader
-user_excel = st.file_uploader("Upload your file", type="xlsx")
+user_excel = r'https://raw.githubusercontent.com/Xx-AD16-xX/Business-Analysis-Assistant/main/Revised EXPORT_OSO1_1.xlsx'
 
 if user_excel is not None:
     # Read the Excel file
