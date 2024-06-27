@@ -17,7 +17,6 @@ model = ChatGoogleGenerativeAI(
 # Streamlit app configuration
 st.set_page_config(page_title="ASK your EXCEL")
 st.header("Ask your EXCEL", divider='rainbow')
-st.logo("Logo_Global_NTT_DATA_Future_Blue_RGB.png")
 
 # File uploader
 user_excel = st.file_uploader("Upload your file", type="xlsx")
