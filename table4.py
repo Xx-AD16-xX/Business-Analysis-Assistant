@@ -19,7 +19,7 @@ st.set_page_config(page_title="ASK your EXCEL")
 st.header("Ask your EXCEL", divider='rainbow')
 
 # File uploader
-user_excel = r'C:\Users\Guest_User\Desktop\chainlit\Revised EXPORT_OSO1_1.xlsx'
+user_excel = 'Revised EXPORT_OSO1_1.xlsx'
 
 if user_excel is not None:
     # Read the Excel file
