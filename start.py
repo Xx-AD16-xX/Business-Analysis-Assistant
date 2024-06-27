@@ -5,4 +5,4 @@ import subprocess
 subprocess.run(["pip", "install", "-r", "requirements.txt"])
 
 # Run Streamlit
-subprocess.run(["streamlit", "run", "app.py", "--server.port", os.getenv("PORT", 8501)])
+subprocess.run(["streamlit", "run", "table4.py", "--server.port", os.getenv("PORT", 8501)])
